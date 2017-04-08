@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NOTE APP</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    </head>
+    <body>
+        <div id="header">
+            <div id="name">Web Note</div>
+            <div id="menubutton"><a id="menulink" href="#">&#9776</a></div>
+            <div id="menu" class="hiddenmenu">
+                <div class="menuitem"><a id="home" href="#">Saved Notes</a></div>
+               
+            </div> 
+            
+        </div>
+        <div id="container">
+            <textarea id="area" rows="25" cols="45"></textarea>
+        </div>
+
+        <div id="controls">
+            <p><a href="javascript:save();" class="button">Save</a>
+            <a href="javascript:clear();" class="button">Clear</a></p>
+</div>
+        <div class="footer">
+            <p>Copyright Rupinder Kaur Brar
+            noteapp.com@2017</p>
+        </div>
+
+
+
+    <script src="app.js"></script>
+
+    </body>
+</html>
